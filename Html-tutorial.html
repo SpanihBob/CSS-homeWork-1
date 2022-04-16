@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title> html-tutorial </title>
+</head>
+
+<style>
+    div1 {
+        color: rgb(255, 0, 0);
+        padding: 0,1%; /* Поля вокруг текста */
+        background-color: rgb(150, 148, 148);
+    }
+    div2 {
+    background: gray; /* Цвет фона под директорией */
+    color: blue; /* Цвет текста */
+    padding: 0,1%; /* Поля вокруг текста */}
+    span {
+        text-decoration: underline dotted ; /* оформление текста в виде подчеркивания, точечной линией ,черным цветом(стандарт) */
+    }
+    code {
+     display: block;/* элемент показан в виде блока */
+     white-space: pre; /* отображение пробелов между словами с учетом всех пробелов,переносов и табуляций */
+     background-color: rgb(150, 148, 148);
+      }
+    body{
+        padding: 20%; /* устанавливаем внутренние отступы текста от края страницы */
+        background-color: #d2d6d4; /* устанавливаем цвет фона */
+    }
+</style>
+
+<body>
+    <h1 align="center"> <b> HTML Tutorial </b> </h1><!--ввод заголовка 1  -->
+    <hr><!-- разделительная линия -->
+        <h2 align="center"> <b> What is HTML? </b> </h2><!-- ввод заголовка 2 -->
+        <div>   <p> <b> Hypertext Markup Language ( <span> HTML</span>)</b> is the standard markup language for creating web pages and web
+                        applications.</p>
+        
+                <p>  Web browsers receive <span> HTML</span> documents from a web server or from local storage and render the documents
+                    into multimedia web pages. <span> HTML</span> describes the structure of a web page semantically and originally
+                    included cues for the appearance of the document.</p>
+         
+                <p> <span> HTML</span> elements are the building blocks of  <span>HTML</span> pages. With <span> HTML</span> constructs, images and other objects
+                    such as interactive forms may be embedded into the rendered page. <span>HTML</span>  provides a means to create
+                    structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links,
+                    quotes and other items.  <span>HTML</span> elements are delineated by tags, written using angle brackets. Tags such as
+                    <div1>&lt;img&gt;</div1> and <div1>&lt;input &gt;</div1> directly introduce content into the page. Other tags such as <div1>&lt;p&gt;</div1> surround and
+                    provide information about document text and may include other tags as sub-elements. Browsers do not
+                    display the <span> HTML </span>tags, but use them to interpret the content of the page.</p>
+        
+        </div>
+    <hr><!-- разделительная линия -->
+    <h2 align="center"> <b> Markup </b> </h2><!-- ввод заголовка 2 -->
+        <div>   <p> <span> HTML</span> markup consists of several key components, including those called tags (and their attributes),
+            character-based data types, character references and entity references. <span> HTML</span> tags most commonly come in
+            pairs like <div1>&lt;h1&gt;</div1> and <div1>&lt;/h1&gt;</div1>, although some represent empty elements and so are unpaired, for example
+            <div1>&lt;img&gt;</div1>. The first tag in such a pair is the start tag, and the second is the end tag (they are also called opening
+            tags and closing tags). </p>
+            
+                <p> Another important component is the HTML document type declaration, which triggers standards mode
+                    <br> rendering.</p>
+                <p>The following is an example of the classic "Hello, World!" program:</p>
+        <code>
+                <div1>&lt;!DOCTYPE html&gt;</div1> 
+                <div1>&lt;html&gt;</div1>
+                    <div1> &lt;head&gt;</div1>
+                           <div1>&lt;title&gt;</div1> This is a title <div1>&lt;/title&gt;</div1>
+                     <div1>&lt;/head&gt;</div1>
+                      <div1>&lt;body&gt;</div1>
+                          <div1> &lt;p&gt;</div1>Hello world! <div1> &lt;/p&gt;</div1>
+                    <div1>&lt;/body&gt;</div1>
+              <div1>&lt;/html&gt;</div1>
+        </code>
+</div>
+<hr>
+<footer><div> <b> Tags:</b> <div2> CodingScripting</div2> <div2>head</div2> <div2>HTML</div2> <div2>Introduction to HTML</div2>  <div2>Landing</div2> <div2>Links</div2> <div2>semantics</div2> <div2>Structure</div2> <div2>Text</div2>
+</div></footer>
+
+</body>
